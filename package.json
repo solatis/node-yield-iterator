@@ -1,0 +1,18 @@
+{
+  "name": "yield-iterator",
+  "description": "Implements Iterator pattern which is interface compatible with JS 1.7 coroutines",
+  "main": "src/",
+  "version": "1.0",
+
+  "devDependencies": {
+    "mocha":          "latest",
+    "chai":           "latest",
+    "chai-interface": "latest",
+
+    "should":         "latest"
+  },
+
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  }
+}
